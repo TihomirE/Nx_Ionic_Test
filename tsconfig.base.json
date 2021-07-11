@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mobile-test/common/common": ["libs/common/common/src/index.ts"],
+      "@mobile-test/mylibrary": ["libs/mylibrary/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

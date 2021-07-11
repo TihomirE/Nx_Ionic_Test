@@ -27,6 +27,19 @@
     ]
   },
   "projects": {
+    "common-common": {
+      "tags": []
+    },
+    "ionic-test": {
+      "tags": []
+    },
+    "ionic-test-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ionic-test"]
+    },
+    "mylibrary": {
+      "tags": []
+    },
     "test-app": {
       "tags": []
     },

@@ -378,6 +378,56 @@
           }
         }
       }
+    },
+    "util-auth": {
+      "projectType": "library",
+      "root": "libs/util/auth",
+      "sourceRoot": "libs/util/auth/src",
+      "prefix": "mobile-test",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/util/auth"],
+          "options": {
+            "jestConfig": "libs/util/auth/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/util/auth/src/**/*.ts",
+              "libs/util/auth/src/**/*.html"
+            ]
+          }
+        }
+      }
+    },
+    "util-auth-new": {
+      "projectType": "library",
+      "root": "libs/util/auth-new",
+      "sourceRoot": "libs/util/auth-new/src",
+      "prefix": "mobile-test",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/util/auth-new"],
+          "options": {
+            "jestConfig": "libs/util/auth-new/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/util/auth-new/src/**/*.ts",
+              "libs/util/auth-new/src/**/*.html"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@mobile-test/common/common": ["libs/common/common/src/index.ts"],
-      "@mobile-test/mylibrary": ["libs/mylibrary/src/index.ts"]
+      "@mobile-test/mylibrary": ["libs/mylibrary/src/index.ts"],
+      "@mobile-test/util/auth-new": ["libs/util/auth-new/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

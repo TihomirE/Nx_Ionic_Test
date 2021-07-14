@@ -31,14 +31,14 @@
       "tags": []
     },
     "ionic-test": {
-      "tags": []
+      "tags": ["scope:client"]
     },
     "ionic-test-e2e": {
       "tags": [],
       "implicitDependencies": ["ionic-test"]
     },
     "mylibrary": {
-      "tags": []
+      "tags": ["scope:shared"]
     },
     "test-app": {
       "tags": []
@@ -46,6 +46,12 @@
     "test-app-e2e": {
       "tags": [],
       "implicitDependencies": ["test-app"]
+    },
+    "util-auth": {
+      "tags": []
+    },
+    "util-auth-new": {
+      "tags": ["scope:util"]
     }
   }
 }
